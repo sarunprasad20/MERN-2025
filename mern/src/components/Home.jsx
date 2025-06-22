@@ -1,12 +1,12 @@
 import React from 'react'
 import About from './About'
-import image from'../assets/image.png'
+import image from'../assets/Ashoka_Chakra.png'
 
-const Home = ({items,users}) => {
+const Home = ({items}) => {
   return (
     <div>
-      <About items={itmes} users={users}/>;
-      <img> spellCheck  </img>
+      <About items={items} />;
+      <img src={image} alt="" />
     </div>
   )
 }
